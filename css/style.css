@@ -1,0 +1,40 @@
+/*
+* Ilan Kleiman
+* style.css
+* MM/DD/YY
+*/
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(lato.tff) format('truetype');
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'lato';
+}
+
+#breather {
+	border-radius: 100%;
+	background-color: #8db3ef;
+	width: 10px;
+	height: 10px;
+	position: fixed;
+}
+
+#maxBreath {
+	position: fixed;
+	border-radius: 100%;
+	border: 1px solid #8db3ef;
+	width: 200px;
+	height: 200px;
+	left: -webkit-calc(50% - 104.5px);
+	top: -webkit-calc(50% - 104.5px);
+
+	left: -moz-calc(50% - 104.5px);
+	top: -moz-calc(50% - 104.5px);
+
+	left: calc(50% - 104.5px);
+	top: calc(50% - 104.5px);
+}
